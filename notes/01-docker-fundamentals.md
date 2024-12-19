@@ -31,6 +31,7 @@ Example:
 - Result: Dependency conflicts! 😫
 
 ## How Docker Solves This
+```mermaid
 flowchart LR
     subgraph "Virtual Machines"
     A1[App 1] --> OS1[Guest OS]
