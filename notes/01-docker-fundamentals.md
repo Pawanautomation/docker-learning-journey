@@ -1,6 +1,9 @@
+
+```markdown
 # Understanding Docker Fundamentals
 
 ## What Problem Does Docker Solve?
+
 ```mermaid
 flowchart TD
     subgraph "Problem Before Docker"
@@ -17,6 +20,7 @@ flowchart TD
     style C fill:#87CEEB,stroke:#000,stroke-width:2px,color:#000
     style D fill:#87CEEB,stroke:#000,stroke-width:2px,color:#000
     end
+```
 
 Before Docker, development teams faced these challenges:
 1. Different developers had different OS versions ❌
@@ -26,11 +30,12 @@ Before Docker, development teams faced these challenges:
 Example:
 - One service needs Python 2
 - Another service needs Python 3
-- One service needs MongoDB 4.0
+- One service needs MongoDB 4.0 
 - Another needs MongoDB 5.0
 - Result: Dependency conflicts! 😫
 
 ## How Docker Solves This
+
 ```mermaid
 flowchart LR
     subgraph "Virtual Machines"
@@ -57,6 +62,7 @@ flowchart LR
     style DE fill:#87CEEB,stroke:#000,stroke-width:2px,color:#000
     style HOS fill:#DDA0DD,stroke:#000,stroke-width:2px,color:#000
     style DOS fill:#DDA0DD,stroke:#000,stroke-width:2px,color:#000
+```
 
 Docker solves this by using containers:
 1. Each service runs in its own container 📦
@@ -86,3 +92,5 @@ A team developing a web application:
 
 Without Docker: Configure each on your machine 😫
 With Docker: Just run 3 commands! 😊
+```
+
