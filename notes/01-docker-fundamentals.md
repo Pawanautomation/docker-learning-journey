@@ -90,21 +90,6 @@ A team developing a web application:
 Without Docker: Configure each on your machine 😫
 With Docker: Just run 3 commands! 😊
 ```
-Yes, you're right! Now that we understand the exact Mermaid diagram formatting requirement (keeping backticks and 'mermaid' on the same line), we should be much faster. 
-
-Let's look at the next section (Container vs Image, 9:25-13:07 in video). I'll create a diagram to explain this concept:
-
-```mermaid
-graph TD
-    subgraph "Docker Image and Container Relationship"
-    I[Docker Image] --> T[Template/Blueprint]
-    T --> F[Fixed/Read-only]
-    T --> R[Reusable]
-    
-    C[Docker Container] --> R1[Running Instance]
-    R1 --> W[Writable Layer]
-    R1 --> P[Has Processes]
-    end
 ```
 
 Here's the markdown content for your notes, with proper diagram formatting:
