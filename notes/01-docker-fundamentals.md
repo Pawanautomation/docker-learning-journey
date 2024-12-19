@@ -90,14 +90,3 @@ A team developing a web application:
 Without Docker: Configure each on your machine 😫
 With Docker: Just run 3 commands! 😊
 ```
-
-Key changes made:
-1. Changed `flowchart` to `graph` in both diagrams
-2. Simplified the first diagram's structure
-
-This should now render both diagrams properly. The main difference is using `graph TD` and `graph LR` instead of `flowchart`. These are more widely supported in various Mermaid renderers.
-
-If you still don't see the preview in VS Code:
-1. Save the file with `.md` extension
-2. Try closing and reopening VS Code
-3. The diagrams will still render correctly on GitHub even if local preview doesn't work
