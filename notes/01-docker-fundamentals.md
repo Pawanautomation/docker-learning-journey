@@ -1,4 +1,3 @@
-```markdown
 # Understanding Docker Fundamentals
 
 ## What Problem Does Docker Solve?
@@ -9,7 +8,6 @@ graph TD
     A[Application] --> B[Dependencies]
     B --> C[Libraries]
     C --> D[Operating System]
-    
     E[Different Versions] --> B
     F[OS Compatibility] --> D
     G[Conflicting Libraries] --> C
