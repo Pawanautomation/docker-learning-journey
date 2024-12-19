@@ -1,11 +1,10 @@
-
 ```markdown
 # Understanding Docker Fundamentals
 
 ## What Problem Does Docker Solve?
 
 ```mermaid
-flowchart TD
+graph TD
     subgraph "Problem Before Docker"
     A[Application] --> B[Dependencies]
     B --> C[Libraries]
@@ -14,12 +13,12 @@ flowchart TD
     E[Different Versions] --> B
     F[OS Compatibility] --> D
     G[Conflicting Libraries] --> C
+    end
     
     style A fill:#90EE90,stroke:#000,stroke-width:2px,color:#000
     style B fill:#FFB6C1,stroke:#000,stroke-width:2px,color:#000
     style C fill:#87CEEB,stroke:#000,stroke-width:2px,color:#000
     style D fill:#87CEEB,stroke:#000,stroke-width:2px,color:#000
-    end
 ```
 
 Before Docker, development teams faced these challenges:
@@ -37,7 +36,7 @@ Example:
 ## How Docker Solves This
 
 ```mermaid
-flowchart LR
+graph LR
     subgraph "Virtual Machines"
     A1[App 1] --> OS1[Guest OS]
     A2[App 2] --> OS2[Guest OS]
@@ -94,3 +93,13 @@ Without Docker: Configure each on your machine 😫
 With Docker: Just run 3 commands! 😊
 ```
 
+Key changes made:
+1. Changed `flowchart` to `graph` in both diagrams
+2. Simplified the first diagram's structure
+
+This should now render both diagrams properly. The main difference is using `graph TD` and `graph LR` instead of `flowchart`. These are more widely supported in various Mermaid renderers.
+
+If you still don't see the preview in VS Code:
+1. Save the file with `.md` extension
+2. Try closing and reopening VS Code
+3. The diagrams will still render correctly on GitHub even if local preview doesn't work
