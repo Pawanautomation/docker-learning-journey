@@ -11,5 +11,5 @@ graph TD
     F --> J[Easy Deployment]
     
     style A fill:#f96,stroke:#333
-    style F fill:#9cf,stroke:#333
+    style F fill:#e74c3c,stroke:#333
     ```
