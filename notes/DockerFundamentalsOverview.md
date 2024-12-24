@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A[Why Containerization] --> B[History of Docker]
     B --> C[Docker Installation]
@@ -20,3 +21,4 @@ graph TD
     F --- L[Image: Read-only Template]
     F --- M[Container: Running Instance]
     end
+    ```
